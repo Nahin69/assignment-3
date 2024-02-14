@@ -49,13 +49,15 @@
 
 </head>
 
-<body class="container max-w-[1170px] mx-auto font-manrope">
-    <header class="lg:w-full w-[95%] mt-[50px]">
-        <nav>
+<body class="container max-w-[1170px] mx-auto font-manrope w-[90%] lg:w-full">
+    <header class="  mt-[50px]">
+
+        <!-- navber -->
+        <nav class="">
             <div class="navbar bg-base-100">
                 <div class="navbar-start">
                     <div class="dropdown">
-                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                        <div tabindex="0" role="button" class="btn btn-ghost -ml-6 lg:hidden">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
                                 stroke="currentColor">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -83,14 +85,143 @@
                         <li class="text-base"><a>Contact</a></li>
                     </ul>
                 </div>
-                <div class="navbar-end gap-2">
-                    <a class="btn btn-ghost text-[#89898B] hidden lg:inline-flex" href=""><i class="fa-solid fa-magnifying-glass"></i></a>
-                    <a class="btn bg-btn-color text-white">Get Ticket</a>
+                <div class="navbar-end gap-2 ">
+                    <a class="btn btn-ghost text-[#89898B] hidden lg:inline-flex" href=""><i
+                            class="fa-solid fa-magnifying-glass"></i></a>
+                    <a class="btn bg-btn-color text-white -mr-2 lg:-mr-0">Get Ticket</a>
                 </div>
             </div>
 
         </nav>
+
+        <!-- banner -->
+        <div>
+
+            <div class="carousel w-full">
+                <!-- slide-1 -->
+                <div id="slide1" class="carousel-item relative w-full">
+                    <div class="slide-img">
+
+                    </div>
+                    <!-- <img src="https://daisyui.com/images/stock/photo-1625726411847-8cbb60cc71e6.jpg" class="w-full" /> -->
+                    <div class="absolute flex   left-5 right-5 top-1/2">
+                        <a href="#slide4" class="btn btn-circle">❮</a>
+                        <a href="#slide2" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+                <!-- slide-2 -->
+                <div id="slide2" class="carousel-item relative w-full">
+                    <img src="https://daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.jpg" class="w-full" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide1" class="btn btn-circle">❮</a>
+                        <a href="#slide3" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+                <!-- slide-3 -->
+                <div id="slide3" class="carousel-item relative w-full">
+                    <img src="https://daisyui.com/images/stock/photo-1414694762283-acccc27bca85.jpg" class="w-full" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide2" class="btn btn-circle">❮</a>
+                        <a href="#slide4" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+                <!-- slide-4 -->
+                <div id="slide4" class="carousel-item relative w-full">
+                    <img src="https://daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.jpg" class="w-full" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide3" class="btn btn-circle">❮</a>
+                        <a href="#slide1" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </header>
+
+    <main>
+        <!-- Professional Hockeys Club-section -->
+
+
+
+        <!-- Program Sections-section -->
+
+
+        <!-- Our New Products-section -->
+
+
+        <!-- Clients Question-section -->
+        <section>
+            <div class="text-center  border-b-2 border-t-2 border-dashed mb-12 py-8">
+                <h2 class=" font-extrabold text-4xl pb-6">Clients Question</h2>
+            <p class=" text-base">The answers to the questions most frequently asked by customers are <br> provided below in brief translations.
+            </p>
+
+            </div>
+            
+
+            <div class="flex gap-10 border-2 rounded-2xl p-8">
+                <img class="flex-1" src="Images/11.png" alt="">
+                <div class="flex-1">
+                    <div class="collapse collapse-plus border-b-2 rounded-none pb-5">
+                        <input type="radio" name="my-accordion-3" checked="checked" />
+                        <div class="collapse-title text-xl font-bold">
+                            Our Equipment
+                        </div>
+                        <div class="collapse-content text-base text-[#13131899]">
+                            <p>You will find everything you need here</p>
+                        </div>
+                    </div>
+                    <div class="collapse collapse-plus border-b-2 rounded-none  pb-5">
+                        <input type="radio" name="my-accordion-3" />
+                        <div class="collapse-title text-xl font-bold">
+                            Hockey Training
+                        </div>
+                        <div class="collapse-content text-base text-[#13131899]">
+                            <p>You will find all kinds of facilities here</p>
+                        </div>
+                    </div>
+                    <div class="collapse collapse-plus border-b-2 rounded-none  pb-5">
+                        <input type="radio" name="my-accordion-3" />
+                        <div class="collapse-title text-xl font-bold">
+                            Private Lessons
+                        </div>
+                        <div class="collapse-content text-base text-[#13131899]">
+                            <p>You will find all kinds of facilities here</p>
+                        </div>
+                    </div>
+                    <div class="collapse collapse-plus border-b-2 rounded-none  pb-5">
+                        <input type="radio" name="my-accordion-3" />
+                        <div class="collapse-title text-xl font-bold">
+                            Ski Touring
+                        </div>
+                        <div class="collapse-content text-base text-[#13131899]">
+                            <p>You will find all kinds of facilities here</p>
+                        </div>
+                    </div>
+                    <div class="collapse collapse-plus border-b-2 rounded-none  pb-5">
+                        <input type="radio" name="my-accordion-3" />
+                        <div class="collapse-title text-xl font-bold">
+                            Booking
+                        </div>
+                        <div class="collapse-content text-base text-[#13131899]">
+                            <p>You will find all kinds of facilities here</p>
+                        </div>
+                    </div>
+                    <div class="collapse collapse-plus border-b-2 rounded-none  pb-5">
+                        <input type="radio" name="my-accordion-3" />
+                        <div class="collapse-title text-xl font-bold">
+                            Pricings
+                        </div>
+                        <div class="collapse-content text-base text-[#13131899]">
+                            <p>Here you will find facilities of excellent quality at the most affordable prices.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Get In Touch-section -->
+    </main>
 
 </body>
 
